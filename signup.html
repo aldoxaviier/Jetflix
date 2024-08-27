@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a1d5c3d0f2.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <title>signup</title>
+</head>
+<body>
+    <form class="boxcontainer" onsubmit="return validateForm()" action="movies.html">
+        <div class="left">
+            <div class="form">
+                <div class="logo">Jetflix</div>
+                <div class="welcome">
+                    Welcome!
+                </div>
+                <div class="subwelcome">
+                    Lets get started by creating your account
+                </div>
+                <div class="inputcontainer">
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="inputcontainer">
+                    <input type="text" placeholder="Password" id="password">
+                </div>
+                <div class="inputcontainer">
+                    <input type="text" placeholder="Confirm Password" id="confirmpassword">
+                </div>
+                <div class="datepick" >
+                    Birth Date: 
+                    <input class="date" type="date" id="date">
+                </div>
+                <div class="gender">
+                    <div class="titleg">Gender:</div>
+                    <input class="male" type="radio" name="gender" value="male">
+                    <label>Male</label>
+                    <input class="female" type="radio" name="gender" value="female">
+                    <label>Female</label>
+                </div>
+                <div class="term">
+                    <input type="checkbox" id="term">
+                    I agree to the terms and conditions.
+                </div>
+                <div class="button">
+                    <button class="buttoncreate">Create account</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="images"></div>
+        <!-- <img class="image" src="signupimg.jpg" > -->
+        <div class="katakata">
+            <i class="fa-solid fa-quote-left"></i>
+            <div class="tagline">Your Cinematic Escape Awaits. Unlock a Universe of Movies, Anytime, Anywhere!</div>
+        </div>
+        
+    </form>
+    <script src="signup.js"></script>
+</body>
+</html>

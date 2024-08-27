@@ -1,0 +1,709 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: #141414;
+    font-family: 'Geologica';
+    overflow-x: hidden;
+    height: 1670px;
+}
+
+.back{
+    color: rgb(255, 0, 119);
+    font-size: 45px;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    text-shadow: 2px 3px 10px black;
+    transition: 0.5s;
+}
+
+.back:hover{
+    color: rgb(204, 35, 114);
+    font-size: 45px;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    border-radius: 50%;
+    background-color: rgb(119, 119, 119,0.3);
+    text-shadow: 2px 3px 10px black;
+    border: none;
+}
+
+.banner{
+    width: 100%;
+    height: 1000px;
+    background-image: linear-gradient(to top, #141414 0%, transparent 100%), url(detailbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+
+}
+
+.verticalposter{
+    position: absolute;
+    top: 43%;
+    left: 9%;
+    width: 240px;
+    height: 340px;
+    border-radius: 8px;
+}
+
+.title-container{
+    position: absolute;
+    top: 47%;
+    left: 24%;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttonplay{
+    margin-top: 15px;
+    font-size: 50px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonplay:hover{
+    background-color: rgb(207, 18, 107);
+}
+
+.genre{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.rating{
+    margin-left: 11px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgba(66, 66, 66, 0.6);
+    margin-top: 15px;
+}
+
+.ratingtext{
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+    color: white;
+}
+
+.ratingtitle{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: fit-content;
+    font-size: 15px;
+    color: rgba(197, 196, 196, 0.6);
+    margin-top: 6px;
+}
+
+.release{
+    margin-left: 11px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgba(66, 66, 66, 0.6);
+    margin-top: 15px;
+}
+
+.releasetitle{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: fit-content;
+    font-size: 15px;
+    color: rgba(197, 196, 196, 0.6);
+    margin-top: 6px;
+}
+
+.releasetext{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.length{
+    margin-left: 11px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgba(66, 66, 66, 0.6);
+    margin-top: 15px;
+}
+
+.lengthtitle{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: fit-content;
+    font-size: 15px;
+    color: rgba(197, 196, 196, 0.6);
+    margin-top: 6px;
+}
+
+.lengthtext{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.synopsis{
+    width: 845px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 300;
+}
+
+.casttitle{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.cast{
+    position: relative;
+    left: 75%;
+    top: -558px;
+}
+
+.casts{
+    display: flex;
+}
+
+.castpics{
+    display: grid;
+    position: absolute;
+}
+
+.castpic{
+    margin-top: 15px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.castnames{
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.castdetail{
+    display: grid;
+}
+.castname{
+    font-size: 16px;
+}
+
+.castrole{
+    margin-bottom: 57px;
+    font-size: 14px;
+    color: rgb(255, 255, 255,0.6);
+}
+
+.episode{
+    position: relative;
+    top: -380px;
+    width: 100%;
+}
+
+.episodepics{
+    margin-top: -100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.episodepic{
+    margin-right: 10px;
+    width: 395px;
+    height: 610px;
+    object-fit: cover;
+    object-position: 55%;
+    border-radius: 5px;
+    opacity: 0.85;
+}
+
+.episodetitle{
+    width: 395px;
+    height: 173px;
+    position: relative;
+    margin-top: -190px;
+    color: white;
+    background-color: rgb(0,0,0,0.5);
+}
+
+.part{
+    position: relative;
+    left: 3%;
+    top: 2%;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255,0.8);
+    text-shadow: 2px 3px 10px black;
+}
+
+.judul{
+    position: relative;
+    left: 3%;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.description{
+    position: relative;
+    left: 3%;
+    font-size: 12px;
+    font-weight: 400;
+    width: 330px;
+    color: white;
+}
+
+.playepisode1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    position: relative;
+    top: -135px;
+    left: 320px;
+    transition: 0.25s;
+}
+
+.playepisode2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    position: relative;
+    top: -135px;
+    left: 320px;
+    transition: 0.25s;
+}
+
+.playepisode3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    position: relative;
+    top: -120px;
+    left: 320px;
+    transition: 0.25s;
+}
+
+.playepisode4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    position: relative;
+    top: -138px;
+    left: 320px;
+    transition: 0.25s;
+}
+
+.playepisode1:hover{
+    background-color: rgb(207, 18, 107);
+    box-shadow: 2px 1px 10px rgb(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.playepisode2:hover{
+    background-color: rgb(207, 18, 107);
+    box-shadow: 2px 1px 10px rgb(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.playepisode3:hover{
+    background-color: rgb(207, 18, 107);
+    box-shadow: 2px 1px 10px rgb(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.playepisode4:hover{
+    background-color: rgb(207, 18, 107);
+    box-shadow: 2px 1px 10px rgb(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.partduration{
+    display: flex;
+}
+
+.duration{
+    font-size: 12px;
+    position: relative;
+    left: 20px;
+}
+
+@media (max-width:768px) {
+    body{
+        height: 1200px;
+    }
+    .verticalposter{
+        top: 43%;
+        left: 5%;
+        width: 150px;
+        height: 240px;
+    }
+
+    .banner{
+        background-position: 30%;
+    }
+
+    .title-container{
+        position: absolute;
+        top: 52%;
+        left: 30%;
+    }
+    
+    .title{
+        font-weight: 700;
+        font-size: 28px;
+        color: white;
+        width: 600px;
+        height: fit-content;
+    }
+    
+    .buttons{
+        display: flex;
+    }
+    
+    .buttonplay{
+        margin-top: 15px;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(255, 0, 119);
+        color: white;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    
+    .genre{
+        margin-top: 20px;
+        color: white;
+        margin-bottom: 20px;
+        
+    }
+    
+    .rating{
+        margin-left: 11px;
+        width: 100px;
+        height: 70px;
+    }
+    
+    .ratingtext{
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        margin-top: 21px;
+        color: white;
+        width: fit-content;
+        position: absolute;
+        left: 148px;
+        top: 110px;
+    }
+    
+    .ratingtitle{
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        font-size: 15px;
+        color: rgba(197, 196, 196, 0.6);
+        margin-top: 6px;
+        margin: auto;
+    }
+    
+    .release{
+        margin-left: 11px;
+        width: 100px;
+        height: 70px;
+    }
+    
+    .releasetitle{
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        font-size: 15px;
+        color: rgba(197, 196, 196, 0.6);
+        margin-top: 6px;
+        margin: auto;
+    }
+    
+    .releasetext{
+        font-size: 15px;
+        font-weight: 600;
+        display: flex;
+        margin-top: 21px;
+        color: white;
+        width: fit-content;
+        position: absolute;
+        left: 225px;
+        top: 113px;
+    }
+    
+    .length{
+        margin-left: 11px;
+        width: 100px;
+        height: 70px;
+    }
+    
+    .lengthtitle{
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+        font-size: 15px;
+        color: rgba(197, 196, 196, 0.6);
+        margin-top: 6px;
+        margin: auto;
+    }
+    
+    .lengthtext{
+        font-size: 15px;
+        font-weight: 600;
+        display: flex;
+        margin-top: 21px;
+        color: white;
+        width: fit-content;
+        position: absolute;
+        left: 350px;
+        top: 113px;
+    }
+    
+    .synopsis{
+        margin-top: 40px;
+        color: white;
+        font-weight: 300;
+        width: 450px;
+        font-size: 17px;
+    }
+    .cast{
+        position: relative;
+        left: 5%;
+        top: -380px;
+    }
+    
+    .casttitle{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+    .casts{
+        display: flex;
+    }
+    
+    /* .castpics{
+        display: grid;
+        position: absolute;
+    } */
+    
+    .castpic{
+        margin-top: 15px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-size: cover;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .castnames{
+        height: fit-content;
+        width: fit-content;
+        color: white;
+        margin-top:25px;
+        margin-left: 60px;
+    }
+    .castdetail{
+        display: grid;
+    }
+    .castname{
+        font-size: 12px;
+    }
+    
+    .castrole{
+        margin-bottom: 35px;
+        font-size: 12px;
+        color: rgb(255, 255, 255,0.6);
+    }
+
+    .episode{
+        position: relative;
+        top: -250px;
+        width: 100%;
+    }
+
+    .episode{
+        position: relative;
+        left: 160px;
+        top: -245px;
+        width: 100%;
+    }
+    
+    .episodepics{
+        margin-top: -100px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    
+    .episodepic{
+        margin-right: 10px;
+        width: 250px;
+        height: 400px;
+        object-fit: cover;
+        object-position: 55%;
+        border-radius: 5px;
+        opacity: 0.85;
+    }
+    
+    .episodetitle{
+        width: 250px;
+        height: 176px;
+        position: relative;
+        margin-top: -190px;
+        color: white;
+        background-color: rgb(0,0,0,0.5);
+    }
+    
+    .part{
+        position: relative;
+        left: 3%;
+        top: 2%;
+        font-size: 15px;
+        font-weight: 400;
+        color: rgb(255, 255, 255,0.8);
+        text-shadow: 2px 3px 10px black;
+    }
+    
+    .judul{
+        position: relative;
+        left: 3%;
+        font-size: 23px;
+        font-weight: 500;
+    }
+    
+    .description{
+        position: relative;
+        left: 3%;
+        font-size: 10px;
+        font-weight: 400;
+        width: 230px;
+        color: white;
+    }
+    .playepisode1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 25px;
+        border: none;
+        background-color: rgb(255, 0, 119);
+        color: white;
+        position: relative;
+        top: -135px;
+        left: 190px;
+        transition: 0.25s;
+    }
+    
+    .playepisode2{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 25px;
+        border: none;
+        background-color: rgb(255, 0, 119);
+        color: white;
+        position: relative;
+        top: -135px;
+        left: 190px;
+        transition: 0.25s;
+    }
+    
+    .playepisode3{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 25px;
+        border: none;
+        background-color: rgb(255, 0, 119);
+        color: white;
+        position: relative;
+        top: -120px;
+        left: 190px;
+        transition: 0.25s;
+    }
+    
+    .playepisode4{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 25px;
+        border: none;
+        background-color: rgb(255, 0, 119);
+        color: white;
+        position: relative;
+        top: -147px;
+        left: 190px;
+        transition: 0.25s;
+    }
+}
